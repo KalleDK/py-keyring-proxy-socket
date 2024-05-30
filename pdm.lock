@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:4442b7cc02113ff2fd62227a477291f3c4018a6279b8571da796690c05b2475b"
+content_hash = "sha256:e00a188798caee334181b9dfbae6f9aff74f56d48d93c4c8ee160a43cb079401"
 
 [[package]]
 name = "cffi"
@@ -148,7 +148,7 @@ files = [
 
 [[package]]
 name = "keyring-proxy"
-version = "0.1.6"
+version = "0.1.7"
 requires_python = ">=3.12"
 summary = "Proxy Base for pypi keyring"
 groups = ["default"]
@@ -156,8 +156,8 @@ dependencies = [
     "keyring>=25.2.1",
 ]
 files = [
-    {file = "keyring_proxy-0.1.6-py3-none-any.whl", hash = "sha256:6f98351471e52376b4eb80112cb6e6c133a143978ad1b4666c640ca3f2090562"},
-    {file = "keyring_proxy-0.1.6.tar.gz", hash = "sha256:bc938a623ca70dd1077f775875845d7b4edc6d9af2468d1323cec4f5dad6a039"},
+    {file = "keyring_proxy-0.1.7-py3-none-any.whl", hash = "sha256:cf8feef4bb48cdaea183550624c9d970af31f14a41ecab44c5d45f1312957f9c"},
+    {file = "keyring_proxy-0.1.7.tar.gz", hash = "sha256:c7d08399e4ecee76eb51b7d3254481ac8dfcc588b78aadf566a00a4883547e98"},
 ]
 
 [[package]]
