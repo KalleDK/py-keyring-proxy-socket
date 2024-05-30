@@ -1,0 +1,40 @@
+#:schema https://json.schemastore.org/pyproject.json
+
+[project]
+name = "keyring-proxy-socket"
+version = "0.1.1"
+description = "Socket backend"
+authors = [{ name = "Kalle M. Aagaard", email = "git@k-moeller.dk" }]
+dependencies = [
+    "keyring-proxy>=0.1.6",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.urls]
+Repository = "https://github.com/KalleDK/py-keyring-proxy-socket"
+
+[project.entry-points."keyring.backends"]
+SocketProxyBackend = "keyring_proxy.socketproxy:SocketProxyBackend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+tools = ["ruff>=0.4.6", "black>=24.4.2", "mypy>=1.10.0"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.black]
+line-length = 120
+
+[tool.pyright]
+include = ["src", "tests"]
+
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
