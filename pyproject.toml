@@ -6,7 +6,7 @@ version = "0.1.15"
 description = "Socket backend"
 authors = [{ name = "Kalle M. Aagaard", email = "git@k-moeller.dk" }]
 dependencies = [
-    "keyring-proxy>=0.2.9",
+    "keyring-proxy>=0.2.11",
 ]
 requires-python = ">=3.12"
 readme = "README.md"
