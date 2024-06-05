@@ -2,7 +2,7 @@
 
 [project]
 name = "keyring-proxy-socket"
-version = "0.1.15"
+version = "0.1.16"
 description = "Socket backend"
 authors = [{ name = "Kalle M. Aagaard", email = "git@k-moeller.dk" }]
 dependencies = [
