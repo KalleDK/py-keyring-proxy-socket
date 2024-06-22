@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:8fee3354654619381c65222f7a035038c7d6605dc0742bb48b3f1aaba73438ec"
+content_hash = "sha256:d3371e16e6cc34a8890b10b3d47e905fe8bbf7eba1d249d65d69ea07805821bd"
 
 [[package]]
 name = "cffi"
@@ -148,7 +148,7 @@ files = [
 
 [[package]]
 name = "keyring-proxy"
-version = "0.2.14.6"
+version = "0.2.14.10"
 requires_python = ">=3.12"
 editable = true
 path = "../py-keyring-proxy"
