@@ -1,14 +1,14 @@
 from typing import override
 
 from jaraco.classes import properties
+from keyring_proxy.backend import ProxyBackend
 from keyring_proxy.socketproxy import SocketClient, default_socket_mgr_client
-from keyring_proxy.transport import ProxyBackend, TransportClient
+from keyring_proxy.transport import TransportClient
 
 PRIORITY = 9.9
 
 
 class SocketProxyBackend(ProxyBackend):
-
     socket_path: str | None = None
     socket_host: str | None = None
     socket_port: str | int | None = None
