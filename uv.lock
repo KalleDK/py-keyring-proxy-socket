@@ -121,15 +121,15 @@ wheels = [
 
 [[package]]
 name = "keyring-proxy"
-version = "0.2.31"
+version = "0.2.31.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "keyring" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7a/0e/6e70ff932eb9bbc5996358aee8bbf0117254097126c4c2e20df3ef9e17f6/keyring_proxy-0.2.31.tar.gz", hash = "sha256:78c9b2da51632bdd715ec4707b0fcd6f4314e2f36f4783100ab63c231919008b", size = 20488 }
+sdist = { url = "https://files.pythonhosted.org/packages/83/08/533f2459eb72edba8f564b1436a178e68d896add6b221b40cebca163cb67/keyring_proxy-0.2.31.1.tar.gz", hash = "sha256:18a77bf623ac925db97c602ccfa09675896811e5e04a3ee4855cb3804fc9ad0a", size = 20334 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8a/62/dc4dd83e1b748a8006bce1eba24f4b02394bb999798f16ecc527ea809a47/keyring_proxy-0.2.31-py3-none-any.whl", hash = "sha256:f2e480c9085d48689dc53440481fe0b469e7a50fba5aa119f0bac7a3ced5e528", size = 8213 },
+    { url = "https://files.pythonhosted.org/packages/f5/bb/5c64ce08ca4509369242baecb0f01ad9956ef58516c69691efd9f954ad60/keyring_proxy-0.2.31.1-py3-none-any.whl", hash = "sha256:3ea82774a59e7f2f42a88ea7d217ff0025941da50be81f9f3171a775e16bb256", size = 8260 },
 ]
 
 [[package]]
@@ -150,7 +150,7 @@ tools = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "keyring-proxy", specifier = ">=0.2.31" }]
+requires-dist = [{ name = "keyring-proxy", specifier = ">=0.2.31.1" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "keyrings-alt", specifier = ">=5.0.2" }]
