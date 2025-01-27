@@ -134,7 +134,7 @@ wheels = [
 
 [[package]]
 name = "keyring-proxy-socket"
-version = "0.1.18.8"
+version = "0.1.18.9"
 source = { editable = "." }
 dependencies = [
     { name = "keyring-proxy" },
