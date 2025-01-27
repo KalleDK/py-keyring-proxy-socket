@@ -5,7 +5,7 @@ from keyring_proxy.backend import ProxyBackend
 from keyring_proxy.socketproxy import SocketClient, default_socket_mgr_client
 from keyring_proxy.transport import TransportClient
 
-PRIORITY = 9.9
+PRIORITY = 9.7
 
 
 class SocketProxyBackend(ProxyBackend):
